@@ -1,14 +1,14 @@
 [
-    {
-        "title": "E-Commerce Platform",
-        "description": "Plateforme de vente en ligne complète avec système de paiement intégré, gestion des stocks et tableau de bord administrateur.",
-        "tech": ["React", "Node.js", "MongoDB", "Stripe"],
-        "details": "<h3>À propos du projet</h3><p>Ce projet a été développé...</p>"
-    },
-    {
-        "title": "Task Manager App",
-        "description": "Application de gestion de tâches collaborative avec notifications en temps réel et synchronisation cloud.",
-        "tech": ["Vue.js", "Firebase", "PWA"],
-        "details": "<h3>À propos du projet</h3><p>Application moderne de gestion...</p>"
-    }
+  {
+    "title": "E-Commerce Platform",
+    "description": "Plateforme de vente en ligne complète avec système de paiement intégré, gestion des stocks et tableau de bord administrateur.",
+    "tech": ["React", "Node.js", "MongoDB", "Stripe"],
+    "details": "<h3>À propos du projet</h3><p>Ce projet a été développé...</p>"
+  },
+  {
+    "title": "Numwork Studio",
+    "description": "Unity but ... for numworks",
+    "tech": ["Tauri", "React js"],
+    "details": "<h3>À propos du projet</h3><p>It's a web app designed to make numwork game development way much easier</p><object type='image/svg+xml' data='./img/github.svg' id='svgObj'></object><script>const obj=document.getElementById('svgObj');obj.addEventListener('load',()=>{const svgDoc=obj.contentDocument;const circle=svgDoc.querySelector('circle');if(circle){circle.style.cursor='pointer';circle.addEventListener('click',()=>{window.open('https://github.com/toncompte','_blank');});}});</script>"
+  }
 ]
