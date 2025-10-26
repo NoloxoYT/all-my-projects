@@ -1,6 +1,7 @@
 async function loadProjects() {
+    const url = "https://raw.githubusercontent.com/NoloxoYT/all-my-projects/refs/heads/Plist/Plist.json";
     try {
-        const res = await fetch('./src/Plist.json');
+        const res = await fetch(url);
         if (!res.ok) throw new Error(`Erreur HTTP ${res.status}`);
         const projects = await res.json();
 
