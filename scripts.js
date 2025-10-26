@@ -1,6 +1,6 @@
 async function loadProjects() {
     try {
-        const res = await fetch('Plist.json');
+        const res = await fetch('projects/Plist.json');
         if (!res.ok) throw new Error(`Erreur HTTP ${res.status}`);
         const projects = await res.json();
 
