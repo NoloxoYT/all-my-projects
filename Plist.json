@@ -3,6 +3,12 @@
   "title": "Numwork Studio",
   "description": "Unity but ... for numworks",
   "tech": ["Tauri", "React js"],
-  "details": "<h3>À propos du projet</h3><p>It's a web app designed to make numwork game development way much easier</p><a href='https://github.com/NoloxoYT/Numwork-Studio' target='_blank' style='display: inline-block; margin-top: 20px;'><img src='https://raw.githubusercontent.com/NoloxoYT/all-my-projects/refs/heads/main/src/img/github.svg' alt='GitHub' width='32' height='32' style='vertical-align: middle;' /></a>"
+  "details": "<h3>About this projet</h3><p>It's a web app designed to make numwork game development way much easier</p><a href='https://github.com/NoloxoYT/Numwork-Studio' target='_blank' style='display: inline-block; margin-top: 20px;'><img src='https://raw.githubusercontent.com/NoloxoYT/all-my-projects/main/src/img/github.svg' alt='GitHub' width='32' height='32' style='vertical-align: middle;' /></a>"
+  },
+  {             
+  "title": "Ecole Directe Plus",
+  "description": "Ecole Directe but... way better",
+  "tech": ["JavaScript", "CSS", "HTML", "Python", "Kotlin", "Rust"],
+  "details": "<h3>About this project</h3><p>It's an web app ( and mobile app ) made to make french student life <strong>WAY MUCH</strong> easier you can find the github and discord link bellow</p>/n<a href='https://github.com/Magic-Fish-Labs/Ecole-Directe-Plus' target='_blank' style='display: inline-block; margin-top: 20px;'><img src='https://raw.githubusercontent.com/NoloxoYT/all-my-projects/main/src/img/github.svg' alt='GitHub' width='32' height='32' style='vertical-align: middle;' /></a><a href='https://discord.gg/AKAqXfTgvE' target='_blank' style='display: inline-block; margin-top: 20px;'><img src='https://raw.githubusercontent.com/NoloxoYT/all-my-projects/main/src/img/discord.svg' alt='GitHub' width='32' height='32' style='vertical-align: middle;' /></a>"
   }
 ]
