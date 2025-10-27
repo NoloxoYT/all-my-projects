@@ -1,8 +1,8 @@
-var BYear = '2009'
-var Bmonth = '09'
-var Bday = '02'
-var Btime = '10:30:02'
-const birthDate = new Date(`${Byear}-${Bmonth}-${Bday}T${Btime}`);
+var BYear = '2009';
+var BMonth = '09';
+var BDay = '02';
+var BTime = '10:30:02';
+var birthDate = new Date(`${BYear}-${BMonth}-${BDay}T${BTime}`);
 function updateAge() {
         const now = new Date();
         let diff = now - birthDate;
