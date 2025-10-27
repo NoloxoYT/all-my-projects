@@ -6,7 +6,7 @@ async function loadProjects() {
         const projects = await res.json();
 
         displayProjects(projects);
-        window.projects = projects; // ✅ on garde en global pour openModal()
+        window.projects = projects;
     } catch (err) {
         console.error('❌ Erreur de chargement de Plist.json :', err);
         document.getElementById('projects').innerHTML = `<p class="error">Impossible de charger les projets.</p>`;
