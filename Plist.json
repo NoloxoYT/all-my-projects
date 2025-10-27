@@ -3,6 +3,6 @@
   "title": "Numwork Studio",
   "description": "Unity but ... for numworks",
   "tech": ["Tauri", "React js"],
-  "details": "<h3>À propos du projet</h3><p>It's a web app designed to make numwork game development way much easier</p><a href='https://github.com/NoloxoYT/Numwork-Studio' target='_blank' style='display: inline-block; margin-top: 20px;'><img src='src/img/github.svg' alt='GitHub' width='32' height='32' style='vertical-align: middle;' /></a>"
+  "details": "<h3>À propos du projet</h3><p>It's a web app designed to make numwork game development way much easier</p><a href='https://github.com/NoloxoYT/Numwork-Studio' target='_blank' style='display: inline-block; margin-top: 20px;'><img src='https://raw.githubusercontent.com/NoloxoYT/all-my-projects/refs/heads/main/src/img/github.svg' alt='GitHub' width='32' height='32' style='vertical-align: middle;' /></a>"
   }
 ]
