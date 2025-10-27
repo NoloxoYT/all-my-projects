@@ -1,7 +1,7 @@
-const BYear = '2009'
-const Bmonth = '09'
-const Bday = '02'
-const Btime = '10:30:02'
+var BYear = '2009'
+var Bmonth = '09'
+var Bday = '02'
+var Btime = '10:30:02'
 const birthDate = new Date(`${Byear}-${Bmonth}-${Bday}T${Btime}`);
 function updateAge() {
         const now = new Date();
