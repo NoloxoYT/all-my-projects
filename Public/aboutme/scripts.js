@@ -20,3 +20,10 @@ function updateAge() {
     }
 updateAge();
 setInterval(updateAge, 1000);
+
+const animText = document.querySelector('.typing-text');
+animText.addEventListener('animationend', function(e) {
+  if (e.animationName === "typing") {
+    animText.classList.add('ended');
+  }
+});
