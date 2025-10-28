@@ -22,6 +22,7 @@ body {
     overflow: hidden;
 }
 .container > p {
+    animation: blink 1s steps(2, start) infinite;
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 15px;
@@ -30,6 +31,7 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
 .container .typing-text {
     font-size: 24px;
     font-weight: 700;
@@ -65,4 +67,9 @@ body {
 .typing-anim.ended {
     border-right: none;
     animation: none;
+}
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
 }
