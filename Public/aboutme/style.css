@@ -36,12 +36,11 @@ body {
     box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
 }
 
-/* Typing Animation */
 .typing-text {
     display: inline-block;
     overflow: hidden; 
     white-space: nowrap; 
-    border-right: .15em solid orange;
+    border-right: .15em solid rgb(255, 255, 255);
     max-width: 100vw;
     /* tricks pour width animation: 
        width: 0 est ignoré, width: auto + ch animation sur ch (max-content ou ch) */
