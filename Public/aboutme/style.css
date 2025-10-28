@@ -6,16 +6,6 @@ body {
     transition: background 0.3s ease, color 0.3s ease;
 }
 
-h1 {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
 .main-container {
     max-width: 1400px;
     margin: 0 auto;
@@ -31,24 +21,37 @@ h1 {
     position: relative;
     overflow: hidden;
 }
-
+.container .typing-text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 .container:hover {
     transform: translateY(-8px);
     border-color: #667eea;
     box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
 }
 
-.typing-anim {
+/* Typing Animation */
+.typing-text {
     display: inline-block;
     overflow: hidden; 
     white-space: nowrap; 
     border-right: .15em solid orange;
     max-width: 100vw;
+    /* tricks pour width animation: 
+       width: 0 est ignoré, width: auto + ch animation sur ch (max-content ou ch) */
     animation: typing 4s steps(69, end) forwards, blink-caret 0.7s step-end infinite;
+    /* Ajuste steps(x, end) avec le nombre de caractères de la phrase (ici 69 pour ton texte) */
     font-size: 1.6rem;
     vertical-align: bottom;
 }
 
+/* Animation Keyframes */
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
