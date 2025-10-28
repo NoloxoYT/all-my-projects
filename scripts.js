@@ -11,7 +11,7 @@ async function loadProjects() {
 
         displayProjects(projects);
     } catch (err) {
-        console.error('❌ Erreur de chargement de Plist.json :', err);
+        console.error('❌ Erreur de chargement de sitemap.json :', err);
         document.getElementById('projects').innerHTML = `<p class="error">Impossible de charger les projets.</p>`;
     }
 }

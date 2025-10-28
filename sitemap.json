@@ -1,8 +1,8 @@
 [
-  {             
-  "title": "Project",
-  "description": "The list of all my project",
-  "url": "./Public/projects"
+  {
+    "title": "Project",
+    "description": "The list of all my project",
+    "url": "./Public/projects"
   },
   {
     "title": "About Me",
@@ -10,8 +10,8 @@
     "url": "./Public/aboutme"
   },
   {
-    "description": "my setup",
-    "title": "My setup",
+    "title": "My Setup",
+    "description": "My setup",
     "url": "./Public/mysetup"
   }
 ]
