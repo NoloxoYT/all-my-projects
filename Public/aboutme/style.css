@@ -4,7 +4,7 @@ body {
             color: #ffffff;
             line-height: 1.6;
             transition: background 0.3s ease, color 0.3s ease;
-        };
+        }
 h1 {
             font-size: 72px;
             font-weight: 700;
@@ -13,13 +13,18 @@ h1 {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-        };
-main-container {
-    background: #111;
+        }
+.main-container {
+    max-width: 1400px;
+            margin: 0 auto;
+            padding: 80px 40px;
+}
+.main-container .container {
+background: #111;
             border-radius: 20px;
             padding: 40px;
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             border: 1px solid #222;
             position: relative;
             overflow: hidden;
-};
+}
