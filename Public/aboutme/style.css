@@ -21,7 +21,7 @@ body {
     position: relative;
     overflow: hidden;
 }
-.container > p {
+.container > p #age {
     animation: blink 0.5s steps(2, start) infinite;
     font-size: 18px;
     font-weight: 500;
