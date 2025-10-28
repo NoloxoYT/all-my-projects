@@ -14,7 +14,7 @@ h1 {
             -webkit-text-fill-color: transparent;
             background-clip: text;
         };
-.main-container {
+main-container {
     background: #111;
             border-radius: 20px;
             padding: 40px;
