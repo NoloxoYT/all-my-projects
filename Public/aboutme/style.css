@@ -15,12 +15,12 @@ h1 {
             background-clip: text;
         }
 .main-container {
-    max-width: 1400px;
+        max-width: 1400px;
             margin: 0 auto;
             padding: 80px 40px;
 }
 .main-container .container {
-background: #111;
+        background: #111;
             border-radius: 20px;
             padding: 40px;
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -28,4 +28,8 @@ background: #111;
             position: relative;
             overflow: hidden;
 }
- 
+.main-container::hover {
+            transform: translateY(-8px);
+            border-color: #667eea;
+            box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
+}
