@@ -19,6 +19,25 @@ h1 {
             margin: 0 auto;
             padding: 80px 40px;
 }
+.main-container .container > h1 {
+            overflow: hidden; 
+            border-right: .15em solid orange;
+            white-space: nowrap; 
+            font-size: 1.6rem;
+            width: 0; /* Start at 0 width */
+            animation: typing 3s steps(24, end) forwards, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
 .main-container .container {
         background: #111;
             border-radius: 20px;
