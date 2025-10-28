@@ -28,7 +28,7 @@ h1 {
             position: relative;
             overflow: hidden;
 }
-.main-container::hover {
+.main-container .container::hover {
             transform: translateY(-8px);
             border-color: #667eea;
             box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
